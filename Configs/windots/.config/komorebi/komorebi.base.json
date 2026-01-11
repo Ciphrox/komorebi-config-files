@@ -13,22 +13,22 @@
   "theme":  {
     "palette": "Custom",
       "colours": {
-        "base_00": "#0f1417",
-        "base_01": "#1c2024", 
-        "base_02": "#41484d",
-        "base_03": "#41484d",
-        "base_04": "#8b9198",
-        "base_05": "#c1c7ce",
-        "base_06": "#dfe3e7",
-        "base_07": "#dfe3e7",
-        "base_08": "#ffb4ab",
-        "base_09": "#b6c9d8",
-        "base_0a": "#ccc1e9",
-        "base_0b": "#004c6b",
-        "base_0c": "#374955",
-        "base_0d": "#91cef5",
-        "base_0e": "#4a4263",
-        "base_0f": "#93000a"
+        "base_00": "{{BACKGROUND}}",
+        "base_01": "{{BACKGROUND_ELEVATED}}", 
+        "base_02": "{{SURFACE_VARIANT}}",
+        "base_03": "{{OUTLINE_VARIANT}}",
+        "base_04": "{{OUTLINE}}",
+        "base_05": "{{ON_SURFACE_VARIANT}}",
+        "base_06": "{{ON_SURFACE}}",
+        "base_07": "{{ON_BACKGROUND}}",
+        "base_08": "{{ERROR}}",
+        "base_09": "{{SECONDARY}}",
+        "base_0a": "{{TERTIARY}}",
+        "base_0b": "{{PRIMARY_CONTAINER}}",
+        "base_0c": "{{SECONDARY_CONTAINER}}",
+        "base_0d": "{{PRIMARY}}",
+        "base_0e": "{{TERTIARY_CONTAINER}}",
+        "base_0f": "{{ERROR_CONTAINER}}"
       },
       "single_border": "Base0D",
       "stack_border":  "Base09",
@@ -73,4 +73,3 @@
   ],
   "bar_config": "$Env:KOMOREBI_CONFIG_HOME/komorebi.bar.json"
 }
-

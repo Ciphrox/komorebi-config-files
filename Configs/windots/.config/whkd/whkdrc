@@ -5,6 +5,8 @@
 alt + o                 : taskkill /f /im whkd.exe; Start-Process whkd -WindowStyle hidden # if shell is pwsh / powershell
 alt + shift + o         : komorebic reload-configuration
 
+
+alt + g 			   	: komorebic gui
 alt + i                 : komorebic toggle-shortcuts
 
 # App shortcuts - these require shell to be pwsh / powershell
@@ -24,8 +26,8 @@ alt + h                 : komorebic focus left
 alt + j                 : komorebic focus down
 alt + k                 : komorebic focus up
 alt + l                 : komorebic focus right
-alt + shift + oem_4     : komorebic cycle-focus previous # oem_4 is [
-alt + shift + oem_6     : komorebic cycle-focus next # oem_6 is ]
+# alt + shift + oem_4     : komorebic cycle-focus previous # oem_4 is [
+# alt + shift + oem_6     : komorebic cycle-focus next # oem_6 is ]
 
 # Move windows
 alt + shift + h         : komorebic move left
@@ -35,13 +37,13 @@ alt + shift + l         : komorebic move right
 alt + shift + return    : komorebic promote
 
 # Stack windows
-# alt + left              : komorebic stack left
-# alt + down              : komorebic stack down
-# alt + up                : komorebic stack up
-# alt + right             : komorebic stack right
-# alt + oem_1             : komorebic unstack # oem_1 is ;
-# alt + oem_4             : komorebic cycle-stack previous # oem_4 is [
-# alt + oem_6             : komorebic cycle-stack next # oem_6 is ]
+alt + a                 : komorebic stack left
+alt + s                 : komorebic stack down
+alt + w                 : komorebic stack up
+alt + d                 : komorebic stack right
+alt + oem_1             : komorebic unstack # oem_1 is ;
+# alt + shift + a         : komorebic cycle-stack previous
+# alt + shift + d         : komorebic cycle-stack next
 
 # Resize
 alt + oem_plus          : komorebic resize-axis horizontal increase
@@ -50,7 +52,7 @@ alt + shift + oem_plus  : komorebic resize-axis vertical increase
 alt + shift + oem_minus : komorebic resize-axis vertical decrease
 
 # Manipulate windows
-alt + SPACE                 : komorebic toggle-float
+alt + t                 : komorebic toggle-float
 alt + f                 : komorebic toggle-monocle
 
 # Window manager options

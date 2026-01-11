@@ -1,9 +1,16 @@
+@import url('./colors.css');
+* {
+   color: var(--foregroundcol);
+   font-weight: 500;
+}
+
 :root {
   --font-name-primary: "Segoe UI", "JetBrainsMono NFP";
   --font-name-secondary: "JetBrainsMono NFP";
   --font-name-icons: "Segoe Fluent Icons";
-  --text-primary: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.54);
+
+  --text-primary: var(--md-sys-color-on-surface);
+  --text-secondary: var(--md-sys-color-on-surface-variant);
   --text-small: 12px;
   --text-normal: 14px;
   --text-lg: 16px;
@@ -15,24 +22,24 @@
   --font-normal: 400;
   --font-bold: 600;
   --font-bold-xl: 900;
-  --bg-taskbar: rgba(8, 8, 8, 0.4);
-  --bg-primary: rgba(8, 8, 8, 0.4);
-  --bg-secondary: rgba(28, 30, 29, 1);
-  --bg-hover-primary: rgba(255, 255, 255, 0.08);
-  --bg-hover-secondary: rgba(255, 255, 255, 0.04);
-  --bg-hover-third: rgba(255, 255, 255, 0.12);
-  --bg-hover-fourth: rgba(24, 24, 37, 0.212);
-  --color-grey: rgba(128, 130, 158, 0.3);
-  --color-dark-grey: hsla(236, 13%, 36%, 0.3);
-  --color-light-grey: rgba(186, 187, 202, 0.3);
+  --bg-taskbar: rgba(16, 20, 24, 0.4);
+  --bg-primary: rgba(28, 32, 36, 0.4);
+  --bg-secondary: var(--md-sys-color-surface-container-high);
+  --bg-hover-primary: rgba(224, 226, 232, 0.08);
+  --bg-hover-secondary: rgba(224, 226, 232, 0.04);
+  --bg-hover-third: rgba(224, 226, 232, 0.12);
+  --bg-hover-fourth: rgba(16, 20, 24, 0.2);
+  --color-grey: var(--md-sys-color-outline-variant);
+  --color-dark-grey: var(--md-sys-color-surface-container-highest);
+  --color-light-grey: var(--md-sys-color-outline);
   --color-yellow: #fae93f;
-  --color-green: #3f925f;
-  --color-dark-green: #223a2c;
-  --color-light-green: #61ad7e;
-  --color-red: #cb3b42;
-  --color-dark-red: #5a1e22;
-  --color-light-red: #e04c52;
-  --color-light-blue: rgb(112, 157, 255);
+  --color-green: var(--md-sys-color-tertiary);
+  --color-dark-green: var(--md-sys-color-tertiary-container);
+  --color-light-green: var(--md-sys-color-on-tertiary-container);
+  --color-red: var(--md-sys-color-error);
+  --color-dark-red: var(--md-sys-color-error-container);
+  --color-light-red: var(--md-sys-color-on-error-container);
+  --color-light-blue: var(--md-sys-color-primary);
   --radius-normal: 8px;
   --radius-xl: 20px;
   --padding-normal: 0 8px;
@@ -56,15 +63,15 @@
   --surface0: #282936;
 
 
-  --background-color: rgba(11, 18, 30, 0.7);
-  --foreground-color: rgb(237, 238, 240);
-  --accent-color: #0078d4;
-  --border-color: rgb(53, 59, 69);
-  --icon-color: rgb(169, 174, 184);
-  --icon-hover: rgba(169, 174, 184, 0.8);
-  --hover-color: rgba(93, 114, 135, 0.12);
-  --active-color: rgb(93, 114, 135);
-  --inactive-color: rgba(93, 114, 135, 0.5);
+  --background-color: rgba(16, 20, 24, 0.7);
+  --foreground-color: var(--md-sys-color-on-surface);
+  --accent-color: var(--md-sys-color-primary);
+  --border-color: var(--md-sys-color-outline-variant);
+  --icon-color: var(--md-sys-color-on-surface-variant);
+  --icon-hover: var(--md-sys-color-on-surface);
+  --hover-color: rgba(224, 226, 232, 0.12);
+  --active-color: var(--md-sys-color-primary);
+  --inactive-color: rgba(224, 226, 232, 0.5);
 }
 
 * {
