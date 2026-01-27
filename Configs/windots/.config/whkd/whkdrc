@@ -13,6 +13,7 @@ alt + i                 : komorebic toggle-shortcuts
 # The apps will be focused if open, or launched if not open
 # alt + f                 : if ($wshell.AppActivate('Firefox') -eq $False) { start firefox }
 alt + b                 : if ($wshell.AppActivate('Zen') -eq $False) { start zen }
+alt + p                 : if ($wshell.AppActivate('pwsh') -eq $False) { start pwsh }
 
 # Layout Switcher
 alt + oem_4				 : komorebic cycle-layout previous
@@ -72,6 +73,8 @@ alt + 5                 : komorebic focus-workspace 4
 alt + 6                 : komorebic focus-workspace 5
 alt + 7                 : komorebic focus-workspace 6
 alt + 8                 : komorebic focus-workspace 7
+alt + 9                 : komorebic focus-workspace 8
+alt + 0                 : komorebic focus-workspace 10
 
 # Move windows across workspaces
 alt + shift + 1         : komorebic move-to-workspace 0

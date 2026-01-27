@@ -67,7 +67,9 @@
         { "name": "5", "layout": "Columns" },
         { "name": "6", "layout": "Grid" },
         { "name": "7", "layout": "RightMainVerticalStack" },
-        { "name": "8", "layout": "UltrawideVerticalStack" }
+        { "name": "8", "layout": "UltrawideVerticalStack" },
+        { "name": "9", "layout": "UltrawideVerticalStack" },
+        { "name": "0", "layout": "UltrawideVerticalStack" }
       ]
     }
   ],

@@ -39,6 +39,7 @@ bars:
       ]
       right:
         [
+          # "cava",
           "systray",
           "cpu",
           "memory",
@@ -51,6 +52,22 @@ bars:
           "power_menu",
         ]
 widgets:
+  # cava:
+  #   type: "yasb.cava.CavaWidget"
+  #   options:
+  #     bar_height: 12
+  #     min_bar_height: 0
+  #     gradient: 1
+  #     foreground: "#89b4fa"
+  #     gradient_color_1: '#74c7ec'
+  #     gradient_color_2: '#89b4fa'
+  #     gradient_color_3: '#cba6f7'
+  #     bars_number: 8
+  #     bar_spacing: 2
+  #     bar_width: 4
+  #     bar_type: "bars"
+  #     framerate: 60
+  #     hide_empty: true
   home:
     type: "yasb.home.HomeWidget"
     options:
@@ -169,7 +186,7 @@ widgets:
       api_key: "3bf4cf9a7c3f40d6b31174128242807" # Get your free API key from https://www.weatherapi.com/
       update_interval: 600 # Update interval in seconds, Min 600 seconds
       hide_decimal: true
-      location: "Gorakhpur" # You can use "USA Los Angeles 90006" {COUNTRY CITY ZIP_CODE}, or just city.
+      location: "Bengaluru" # You can use "USA Los Angeles 90006" {COUNTRY CITY ZIP_CODE}, or just city.
       callbacks:
         on_left: "toggle_card"
         on_middle: "toggle_label"

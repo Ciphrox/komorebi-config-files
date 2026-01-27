@@ -21,7 +21,13 @@ Invoke-Expression (& { (zoxide init powershell | Out-String) })
 Remove-Item Alias:cd
 New-Alias -Name cd -Value z
 
+Remove-Item Alias:ls
+function ls { eza --icons $args }
 
+function kimi { ollama run "kimi-k2:1t-cloud" $args}
+
+# New-Alias -Name ls -Value "eza --icons"
 # Fastfetch
+
 New-Alias -Name ff -Value fastfetch
 ff
